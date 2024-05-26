@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+Theme Name: RSUD Ciawi
+Theme URI: 
+Author: Fuad Hadi Nugroho
+Author URI: https://www.linkedin.com/in/fuadhd/
+Description: Tema ini dibuat untuk website resmi RSUD Ciawi.
+Requires at least: 6.4.3
+Tested up to: 6.4.3
+Requires PHP: 8.1.23
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: rsudciawi
+Tags: blog, profile, hospital
+
+RSUD Ciawi WordPress Theme, (C) 2023 WordPress.org
+RSUD Ciawi is distributed under the terms of the GNU GPL.
+*/
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Nunito'), local('Nunito'),
+  url('dist/fonts/Nunito/Nunito-VariableFont_wght.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Open Sans'), local('OpenSans'),
+  url('dist/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf');
+  font-display: swap;
+}
+
+/* Screen reader */
+.screen-reader-text {
+  display: none;
+}
