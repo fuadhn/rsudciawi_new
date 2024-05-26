@@ -3,26 +3,26 @@ module.exports = {
   prefix: 'rsc-',
   content: [
     // Frontpage
-    "./functions.php",
-    "./includes/filters.php",
-    "./includes/functions.php",
-    "./includes/hooks.php",
-    "./header.php",
-    "./template-parts/header/header-primary.php",
-    "./front-page.php",
-    "./template-parts/section/slideshow.php",
-    "./template-parts/section/contact.php",
-    "./template-parts/section/about.php",
-    "./template-parts/section/service.php",
-    "./template-parts/section/promo.php",
-    "./template-parts/section/blog.php",
-    "./template-parts/section/pkrs.php",
-    "./template-parts/section/gallery.php",
-    "./footer.php",
-    "./template-parts/footer/footer-primary.php",
-    "./src/css/frontpage.css",
-    "./dist/js/main.js",
-    "./dist/js/frontpage.js"
+    // "./functions.php",
+    // "./includes/filters.php",
+    // "./includes/functions.php",
+    // "./includes/hooks.php",
+    // "./header.php",
+    // "./template-parts/header/header-primary.php",
+    // "./front-page.php",
+    // "./template-parts/section/slideshow.php",
+    // "./template-parts/section/contact.php",
+    // "./template-parts/section/about.php",
+    // "./template-parts/section/service.php",
+    // "./template-parts/section/promo.php",
+    // "./template-parts/section/blog.php",
+    // "./template-parts/section/pkrs.php",
+    // "./template-parts/section/gallery.php",
+    // "./footer.php",
+    // "./template-parts/footer/footer-primary.php",
+    // "./src/css/frontpage.css",
+    // "./dist/js/main.js",
+    // "./dist/js/frontpage.js"
 
     // Dokter
     // "./functions.php",
@@ -39,18 +39,18 @@ module.exports = {
     // "./dist/js/dokter.js"
 
     // Single Dokter
-    // "./functions.php",
-    // "./includes/filters.php",
-    // "./includes/functions.php",
-    // "./includes/hooks.php",
-    // "./header.php",
-    // "./template-parts/header/header-primary.php",
-    // "./single-dokter.php",
-    // "./footer.php",
-    // "./template-parts/footer/footer-primary.php",
-    // "./src/css/single-dokter.css",
-    // "./dist/js/main.js",
-    // "./dist/js/single-dokter.js"
+    "./functions.php",
+    "./includes/filters.php",
+    "./includes/functions.php",
+    "./includes/hooks.php",
+    "./header.php",
+    "./template-parts/header/header-primary.php",
+    "./single-dokter.php",
+    "./footer.php",
+    "./template-parts/footer/footer-primary.php",
+    "./src/css/single-dokter.css",
+    "./dist/js/main.js",
+    "./dist/js/single-dokter.js"
 
     // Single Layanan
     // "./functions.php",

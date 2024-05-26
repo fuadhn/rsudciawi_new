@@ -829,3 +829,12 @@ button.rsc-button {
     @apply rsc-p-4 rsc-border-l-2 rsc-border-l-rscsecondary-light rsc-bg-rscbrown/10 rsc-text-gray-600 rsc-inline-block;
   }
 }
+
+/* profile */
+.rsc-doctor-profile {
+  @apply rsc-flex rsc-flex-row rsc-gap-4 rsc-items-center;
+
+  .rsc-photo {
+    @apply rsc-h-[94px] lg:rsc-h-[102px] rsc-w-[94px] lg:rsc-w-[102px] rsc-object-cover rsc-object-top rsc-rounded-full;
+  }
+}

@@ -770,6 +770,10 @@ video {
   height: 60px;
 }
 
+.rsc-h-\[94px\] {
+  height: 94px;
+}
+
 .rsc-h-\[calc\(100vh-100\.8px\)\] {
   height: calc(100vh - 100.8px);
 }
@@ -812,6 +816,10 @@ video {
 
 .rsc-w-\[56px\] {
   width: 56px;
+}
+
+.rsc-w-\[94px\] {
+  width: 94px;
 }
 
 .rsc-w-\[calc\(100vw\)\] {
@@ -1120,6 +1128,11 @@ video {
 .rsc-object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.rsc-object-top {
+  -o-object-position: top;
+     object-position: top;
 }
 
 .rsc-p-0 {
@@ -3425,6 +3438,42 @@ button.rsc-button {
   }
 }
 
+/* profile */
+
+.rsc-doctor-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  .rsc-photo {
+    height: 94px;
+  }
+  .rsc-photo {
+    width: 94px;
+  }
+  .rsc-photo {
+    border-radius: 9999px;
+  }
+  .rsc-photo {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .rsc-photo {
+    -o-object-position: top;
+       object-position: top;
+  }
+  @media (min-width: 1024px) {
+    .rsc-photo {
+      height: 102px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .rsc-photo {
+      width: 102px;
+    }
+  }
+}
+
 .hover\:rsc-bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -3585,12 +3634,20 @@ button.rsc-button {
     display: none;
   }
 
+  .lg\:rsc-h-\[102px\] {
+    height: 102px;
+  }
+
   .lg\:rsc-h-\[268px\] {
     height: 268px;
   }
 
   .lg\:rsc-h-\[464px\] {
     height: 464px;
+  }
+
+  .lg\:rsc-w-\[102px\] {
+    width: 102px;
   }
 
   .lg\:rsc-grid-cols-4 {
