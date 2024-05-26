@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "frontpage": "npx tailwindcss -i ./src/css/frontpage.css -o ./dist/css/frontpage.css --watch",
+    "dokter": "npx tailwindcss -i ./src/css/dokter.css -o ./dist/css/dokter.css --watch",
+    "single-dokter": "npx tailwindcss -i ./src/css/single-dokter.css -o ./dist/css/single-dokter.css --watch",
+    "single-layanan": "npx tailwindcss -i ./src/css/single-layanan.css -o ./dist/css/single-layanan.css --watch",
+    "promo": "npx tailwindcss -i ./src/css/promo.css -o ./dist/css/promo.css --watch",
+    "single-promo": "npx tailwindcss -i ./src/css/single-promo.css -o ./dist/css/single-promo.css --watch",
+    "pkrs": "npx tailwindcss -i ./src/css/pkrs.css -o ./dist/css/pkrs.css --watch",
+    "single-kegiatan": "npx tailwindcss -i ./src/css/single-kegiatan.css -o ./dist/css/single-kegiatan.css --watch",
+    "home": "npx tailwindcss -i ./src/css/home.css -o ./dist/css/home.css --watch",
+    "page": "npx tailwindcss -i ./src/css/page.css -o ./dist/css/page.css --watch",
+    "single": "npx tailwindcss -i ./src/css/single.css -o ./dist/css/single.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
